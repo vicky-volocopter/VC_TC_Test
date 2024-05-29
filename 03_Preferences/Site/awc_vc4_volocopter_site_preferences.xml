@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<preferences version="10.0">
+	<category name="Active Workspace">
+		<category_description>No description available for this category.</category_description>
+		<preference name="AWC_show_audit_logs" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Activates the visibility of the &quot;Audit Log&quot; tab in Active Workspace.
+By default, this is &quot;true&quot; for members of the &quot;dba&quot; group.</preference_description>
+			<context name="Teamcenter">
+				<value>true</value>
+			</context>
+		</preference>
+		<preference name="AWC_DefaultCreateTypes" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+			<preference_description>Define the types to be displayed in the &quot;Create&quot; dialog in the Active Workspace Client (AWC).
+Valid values are types internal names.
+All subtypes associated to a provided type will also be displayed.</preference_description>
+			<context name="Teamcenter">
+				<value>CompanyLocation</value>
+				<value>DC_Topic</value>
+				<value>DC_Publication</value>
+				<value>Civ0InfoCode</value>
+			</context>
+		</preference>
+		<preference name="AWS_allowedTypesForDelete" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Defines the list of Business Object types for which the &quot;Delete&quot; command is visible.</preference_description>
+			<context name="Teamcenter">
+				<value>Identifier</value>
+				<value>Awb0SavedBookmark</value>
+				<value>Folder</value>
+				<value>Item</value>
+				<value>ItemRevision</value>
+				<value>Dataset</value>
+			</context>
+		</preference>
+		<preference name="Item.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Defines the list of properties that are to be displayed under a cell for objects of type Item in the Active Workspace client.
+Valid values are property internal names.</preference_description>
+			<context name="Teamcenter">
+				<value>object_string</value>
+				<value>item_id</value>
+			</context>
+		</preference>
+		<preference name="ItemRevision.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Defines the list of properties that are to be displayed under a cell for objects of type ItemRevision in the Active Workspace client.
+Valid values are property internal names.</preference_description>
+			<context name="Teamcenter">
+				<value>object_string</value>
+				<value>item_id</value>
+				<value>item_revision_id</value>
+				<value>release_status_list</value>
+			</context>
+		</preference>
+	</category>
+	<category name="Active Workspace.Document Management">
+		<category_description>No description available for this category.</category_description>
+		<preference name="Fnd0DM_IsSimpleDocumentEnabled" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>Enables simple document feature.
+The default value is true. This value is case-sensitive. When this value is true then the out-of-the-box Item Revision Definition Configuration (IRDC) Dma1DocumentRevisionIRDC will be applied to the created Document Revision business object.</preference_description>
+			<context name="Teamcenter">
+            </context>
+		</preference>
+	</category>
+	<category name="General">
+		<category_description>No description available for this category.</category_description>
+		<preference name="AW_SubLocation_Generic_ViewMode" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>TreeSummaryView</value>
+			</context>
+		</preference>
+		<preference name="AW_SubLocation_OccurrenceManagementSubLocation_ViewMode" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>TreeView</value>
+			</context>
+		</preference>
+	</category>
+	<category name="Workflow">
+		<category_description>No description available for this category.</category_description>
+		<preference name="CR_allow_alternate_procedures" type="String" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+			<preference_description>Manages the visibility of workflow templates in the &quot;New Process&quot; panel of the Workflow application in the rich client.
+Valid Values:
+* any : The &quot;All&quot; option is pre-selected in the &quot;All/Assigned&quot; radio button group, which means that all templates are listed.
+* Assigned: The &quot;Assigned&quot; option is pre-selected in the &quot;All/Assigned&quot; radio button group, which means that only the templates assigned to the group and selected target object type are listed.  This is the default value.
+* none: The options &quot;All/Assigned&quot; are not visible. Furthermore, only the templates assigned to the group and selected target object type are displayed (behaviour similar to the &quot;Assigned&quot; option). When no templates are assigned for the target group/type, the displayed list is empty. If no object was selected when initiating the workflow, all the templates assigned to the group are listed.
+
+Process templates assigned to a group and a target object type are defined through the &quot;Process designer-&gt;Edit-&gt;Template Filter&quot; command.</preference_description>
+			<context name="Teamcenter">
+				<value>Assigned</value>
+			</context>
+		</preference>
+	</category>
+</preferences>

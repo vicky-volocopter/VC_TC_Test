@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<preferences version="10.0">
+  <category name="Mail">
+    <category_description>No description available for this category.</category_description>
+    <preference name="Mail_OSMail_activated" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines if the OS Mail functionality is available.
+This is a site preference.
+Valid values are true (default) or false.
+When the value is false, the value given to preference &quot;Mail_server_name&quot; is not taken into account.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    <preference name="Mail_OS_from_address" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines a &quot;From&quot; e-mail address for OS notification e-mails.
+Valid vallues are:
+* a valid email address: this value appears in the e-mail header &quot;From&quot; line.
+* an empty value: the &quot;From&quot; email address is taken from the sender&apos;s Person definition. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>teamcenter-smtp@volocopter.com</value>
+      </context>
+    </preference>
+    <preference name="Mail_internal_mail_activated" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines if Teamcenter internal mail functionality is available when using the &quot;notify&quot; Workflow Handler.
+Valid values are true or false (default).
+When the value is false, Teamcenter internal mail will not be sent to the user&apos;s Teamcenter mailbox.
+This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    <preference name="Mail_send_file_attachments_activated" type="Logical" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Activates the sending of Dataset attachments as normal e-mail file attachments, when the Envelope functionality is sending messages directly to an e-mail address instead of a Teamcenter user.
+Valid values are:
+* true: external recipients of e-mails will receive Dataset files as attachments, instead of Teamcenter client links to the Envelope. Furthermore, the recipient is able to open the attached files without needing a Teamcenter login or privileges.
+Therefore, consider site security guidelines before setting this preference to true. This is the default value.
+* false: external recipients of e-mails receive only Teamcenter client links to the attached Datasets, and not the actual files.
+When the mail is sent to a Teamcenter user, this preference has no impact, and the user will always receive links to the Envelope object.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    <preference name="Mail_server_authentication_activated" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines if the Mail sent from Teamcenter needs to be Authenticated.
+Valid values are:
+* true: The authentication will be performed while sending an email. An admin will need to update Mail_server_authentication_id, Mail_server_connection_security,
+Mail_server_authentication_passwd_location and Mail_server_ssl_protocol if authentication is true.
+* false: The email will be sent without authentication. An admin may need to update the Mail_server_port if authentication is false. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    <preference name="Mail_server_authentication_id" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the email id or user id for Email Authentication.
+Make sure you specify the password location and email id/user id if Mail_server_authentication_activated is true.</preference_description>
+      <context name="Teamcenter">
+        <value>teamcenter-smtp@volocopter.com</value>
+      </context>
+    </preference>
+    <preference name="Mail_server_authentication_passwd_location" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the password location of email id used for authentication.
+Make sure you specify the password location and email id/user id if Mail_server_authentication_activated is true.</preference_description>
+      <context name="Teamcenter">
+        <value>E:\plm\tc12\security\email.pwf</value>
+      </context>
+    </preference>
+    <preference name="Mail_server_charset" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the Teamcenter mail server character set used to send OS mail.</preference_description>
+      <context name="Teamcenter">
+        <value>windows-1252</value>
+      </context>
+    </preference>
+    <preference name="Mail_server_connection_security" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the connection security between SMTP Mail Utility (Teamcenter) and Mail Server.
+Valid values are:
+* None
+* SSL/TLS
+* STARTTLS
+This value depends on the Mail server configuration for SMTP.</preference_description>
+      <context name="Teamcenter">
+        <value>STARTTLS</value>
+      </context>
+    </preference>
+    <preference name="Mail_server_name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Information about the mail gateway server.
+This is a site preference.
+It can be set to either a mail server name or to a numeric IP address.
+The mail server name should be a machine running a send mail daemon.
+Leaving it as &quot;your mail server machine&quot; while the &quot;Mail_OSMail_activated&quot; preference is true may give you errors telling you to set this preference if you try to use the &quot;Send&quot; command.</preference_description>
+      <context name="Teamcenter">
+        <value>smtp.office365.com</value>
+      </context>
+    </preference>
+    <preference name="Mail_server_port" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the port number used by the SMTP mail server to send OS mail.
+This is a site preference.
+The default value is 25.</preference_description>
+      <context name="Teamcenter">
+        <value>587</value>
+      </context>
+    </preference>
+    <preference name="Mail_server_ssl_protocol" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the connection security protocol between SMTP Mail Utility (Teamcenter) and Mail Server.
+This value depends on the Mail server configuration for SMTP.
+Valid values are: TLSv1, TLSv1_1, TLSv1_2, SSLv2, SSLv23, SSLv3.
+These are the only supported ssl/tls protocol.</preference_description>
+      <context name="Teamcenter">
+        <value>TLSv1_2</value>
+      </context>
+    </preference>
+  </category>
+</preferences>

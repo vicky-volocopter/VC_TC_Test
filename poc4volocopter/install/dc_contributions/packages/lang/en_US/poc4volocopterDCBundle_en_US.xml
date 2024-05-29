@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+-->
+<localization name="poc4volocopter">
+    <property name="displayName" value="volocopter"/>
+    <property name="description" value="POC datamodel project for Volocopter"/>
+</localization>

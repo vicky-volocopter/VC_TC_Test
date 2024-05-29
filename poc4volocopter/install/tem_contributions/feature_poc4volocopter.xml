@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    Document   : feature_poc4volocopter.xml
+    Description: This XML is used by TEM to install or upgrade the "poc4volocopter" solution.
+--><feature>
+        
+    <name value="volocopter"/>
+        
+    <property name="feature_name" value="poc4volocopter"/>
+        
+    <group value="package"/>
+        
+    <guid value="5ECC1F490EDB208222E2078850F44872"/>
+        
+    <bundle value="${feature_name}Bundle.xml"/>
+        
+    <description value="${feature_name}.description"/>
+        
+    <include file="dataModelDependency.xml"/>
+        
+    <relation>
+        <depends name="cm" value="E9B8A3F6B7B53AE540DCC54C13B3C201"/>
+        <depends name="nx0tcin" value="0BEECDCD0AD8B6D45617733583A4A78C"/>
+        <depends name="vendormanagement" value="7EB052BF7B4039A2BB8C9F98009DD22D"/>
+        <depends name="csi" value="D18192F4475ADEA11EC85F454C6ABA31"/>
+        <depends name="vc4volocopter" value="E446CAA2AC0E5AB4354150D90AAA9448"/>
+    </relation>
+    <feature>
+                
+        <!--  Feature: Data Model -->
+                
+        <name value="Data Model"/>
+                
+        <property name="feature_id" value="datamodel"/>
+                
+        <property name="bmide_optional" value="false"/>
+                
+        <property name="template_name" value="${feature_name}"/>
+                
+        <property name="template_file" value="${template_name}_template.xml"/>
+                
+        <root value="true"/>
+                
+        <bundle value="${template_name}Bundle.xml"/>
+                
+        <description value="${template_name}.description"/>
+                
+        <guid value="D9DF11842DA44857583BEB7FF5459F31"/>
+                
+        <include file="coreDataModel2.xml"/>
+                
+        <include file="generatePlmxmlSchema.xml"/>
+    </feature>
+        
+    <dependencyReferences>
+        <reference name="foundation" value="8C061DD51E13E0CB9DC4687B1A3348BE"/>
+    </dependencyReferences>
+</feature>
