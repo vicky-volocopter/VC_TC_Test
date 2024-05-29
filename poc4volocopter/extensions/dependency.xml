@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataIncludes currentTemplateVersion="14.0_0" displayName="pocvolocopter" enableOpsDataDeploy="true" guid="D9DF11842DA44857583BEB7FF5459F31" isDescriptionMandatory="false" name="poc4volocopter" optional="true" prefixes="POC4" teamcenterTemplate="false">
+    <include file="foundation_template.xml"/>
+    <include file="cm_template.xml"/>
+    <include file="nx0tcin_template.xml"/>
+    <include file="vendormanagement_template.xml"/>
+    <include file="csi_template.xml"/>
+    <include file="vc4volocopter_template.xml"/>
+</TcBusinessDataIncludes>
