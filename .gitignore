@@ -1,0 +1,61 @@
+
+
+
+
+
+# this is a NX ribbon toolbar, only for VDI, which shall not be deployed to productive!
+volocopterAdmin.rtb
+
+
+
+# exclude library from sync, because this is maintained by key-users
+20_PLMShare/plmshare/nx120/win64/ugii/schematics/UGSCHEMATICS/ugsdata/libraries/
+
+
+20_PLMShare/plmshare/nx120library/2dSectionLibrary/*
+20_PLMShare/plmshare/nx120library/customSymbols/*
+20_PLMShare/plmshare/nx120library/materials/*
+20_PLMShare/plmshare/nx120library/pmiSymbols/*
+20_PLMShare/plmshare/nx120library/schematicsLibrary/*
+20_PLMShare/plmshare/nx120library/schematicsMPM/*
+20_PLMShare/plmshare/nx120library/udf/*
+!20_PLMShare/plmshare/nx120library/2dSectionLibrary/README.md
+!20_PLMShare/plmshare/nx120library/customSymbols/README.md
+!20_PLMShare/plmshare/nx120library/materials/README.md
+!20_PLMShare/plmshare/nx120library/pmiSymbols/README.md
+!20_PLMShare/plmshare/nx120library/schematicsLibrary/README.md
+!20_PLMShare/plmshare/nx120library/schematicsMPM/README.md
+!20_PLMShare/plmshare/nx120library/udf/README.md
+
+# Exclude NX2007 library content BUT folder structure
+20_PLMShare/plmshare/nx2007library/2dSectionLibrary/*
+20_PLMShare/plmshare/nx2007library/customSymbols/*
+20_PLMShare/plmshare/nx2007library/materials/*
+20_PLMShare/plmshare/nx2007library/pmiSymbols/*
+20_PLMShare/plmshare/nx2007library/schematicsLibrary/*
+20_PLMShare/plmshare/nx2007library/schematicsMPM/*
+20_PLMShare/plmshare/nx2007library/udf/*
+20_PLMShare/plmshare/nx2007library/StandardParts/*
+
+# Exclude NX2206 library content BUT folder structure
+20_PLMShare/plmshare/nx2206library/2dSectionLibrary/*
+20_PLMShare/plmshare/nx2206library/customSymbols/*
+20_PLMShare/plmshare/nx2206library/materials/*
+20_PLMShare/plmshare/nx2206library/pmiSymbols/*
+20_PLMShare/plmshare/nx2206library/schematicsLibrary/*
+20_PLMShare/plmshare/nx2206library/routingLibrary/*
+20_PLMShare/plmshare/nx2206library/schematicsMPM/*
+20_PLMShare/plmshare/nx2206library/udf/*
+20_PLMShare/plmshare/nx2206library/StandardParts/*
+# !20_PLMShare/plmshare/nx2206library/2dSectionLibrary/.gitkeep
+# !20_PLMShare/plmshare/nx2206library/customSymbols/.gitkeep
+# !20_PLMShare/plmshare/nx2206library/customSymbols/Volocopter Symbols/.gitkeep
+# !20_PLMShare/plmshare/nx2206library/materials/.gitkeep
+# !20_PLMShare/plmshare/nx2206library/pmiSymbols/.gitkeep
+# !20_PLMShare/plmshare/nx2206library/schematicsLibrary/.gitkeep
+# !20_PLMShare/plmshare/nx2206library/schematicsMPM/.gitkeep
+# !20_PLMShare/plmshare/nx2206library/udf/.gitkeep
+# !20_PLMShare/plmshare/nx2206library/StandardParts/.gitkeep
+
+/.vs
+/20_PLMShare/plmshare/.vs
