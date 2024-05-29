@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<preferences version="10.0">
+	<category name="Volocopter.AWC">
+		<category_description>Volocopter Active Workspace general preferences.</category_description>
+		<preference name="AWC_VC4_HardwarePart.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Hardware Part Create Stylesheet.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4HardwarePart</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_HardwarePartRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering info summary for HP revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4HardwarePartRevInfoSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_HardwarePartRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for ItemRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4HardwarePartRevSaveAs</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_HardwarePartRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for Hardware Part Revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4HardwarePartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_HardwarePartRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4HardwarePartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_HardwarePart.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for Hardware Part.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4HardwarePartSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ElectricPart.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Electric Part Create Stylesheet.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ElectricPartCreate</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ElectricPartRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering info summary for EP revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ElectricPartRevInfoSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ElectricPartRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for ItemRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ElectricPartRevSaveAs</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ElectricPartRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for Electric Part Revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ElectricPartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ElectricPartRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ElectricPartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ElectricPart.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for Electric Part.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ElectricPartSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_SoftwarePart.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Software Part Create Stylesheet.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4SoftwarePartCreate</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_SoftwarePartRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering info summary for SP revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4SoftwarePartRevInfoSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_SoftwarePartRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for ItemRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4SoftwarePartRevSaveAs</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_SoftwarePartRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for Software Part Revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4SoftwarePartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_SoftwarePartRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4SoftwarePartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_SoftwarePart.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for Software Part.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4SoftwarePartSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_InstLevItem.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Hardware Part Create Stylesheet.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4InstLevItemCreate</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_InstLevItemRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering info summary for IL revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4InstLevItemRevInfoSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_InstLevItemRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for ItemRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4InstLevItemRevSaveAs</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_InstLevItemRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for Hardware Part Revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4InstLevItemRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_InstLevItemRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4InstLevItemRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_InstLevItem.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for Hardware Part.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4InstLevItemSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_MBOMPart.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>MBOM Part Create Stylesheet.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4MBOMPartCreate</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_MBOMPartRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering info summary for MP revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4MBOMPartRevInfoSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_MBOMPartRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for ItemRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4MBOMPartRevSaveAs</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_MBOMPartRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for MBOM Part Revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4MBOMPartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_MBOMPartRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4MBOMPartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_MBOMPart.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for MBOM Part.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4MBOMPartSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_UpperLevItem.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>UpperLevItem Create Stylesheet.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4UpperLevItemCreate</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_UpperLevItemRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering info summary for UL revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4UpperLevItemRevInfoSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_UpperLevItemRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for ItemRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4UpperLevItemRevSaveAs</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_UpperLevItemRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for UpperLevItem Revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4UpperLevItemRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_UpperLevItemRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4UpperLevItemRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_UpperLevItem.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for UpperLevItem.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4UpperLevItemSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_TBenchPart.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>TBench Part Create Stylesheet.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4TBenchPartCreate</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_TBenchPartRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering info summary for TB revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4TBenchPartRevInfoSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_TBenchPartRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for ItemRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4TBenchPartRevSaveAs</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_TBenchPartRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for TBench Part Revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4TBenchPartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_TBenchPartRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4TBenchPartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_TBenchPart.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for TBench Part.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4TBenchPartSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceJig.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>ResourceJig Create Stylesheet.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceJigCreate</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceJigRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering info summary for Jig revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceJigRevInfoSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceJigRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for ItemRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceJigRevSaveAs</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceJigRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for ResourceJig Revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceJigRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceJigRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceJigRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceJig.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for ResourceJig.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceJigSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceMAN.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>ResourceMAN Create Stylesheet.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceMANCreate</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceMANRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering info summary for MAN revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceMANRevInfoSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceMANRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for ItemRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceMANRevSaveAs</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceMANRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for ResourceMAN Revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceMANRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceMANRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceMANRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceMAN.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for ResourceMAN.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceMANSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceMold.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>ResourceMold Create Stylesheet.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceMoldCreate</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceMoldRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering info summary for Mold revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceMoldRevInfoSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceMoldRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for ItemRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceMoldRevSaveAs</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceMoldRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for ResourceMold Revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceMoldRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceMoldRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceMoldRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_ResourceMold.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for ResourceMold.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ResourceMoldSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_RawMaterial.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>RawMaterial Create Stylesheet.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4RawMaterialCreate</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_RawMaterialRevision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering info summary for RawMaterial revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4RawMaterialRevInfoSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_RawMaterialRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for ItemRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4RawMaterialRevSaveAs</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_RawMaterialRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for RawMaterial Revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4RawMaterialRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_RawMaterialRevision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4RawMaterialRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_VC4_RawMaterial.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for RawMaterial.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4RawMaterialSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_CommercialPart.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>CommercialPart Create Stylesheet.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4CommercialPartCreate</value>
+			</context>
+		</preference>
+		<preference name="AWC_CommercialPart Revision.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering info summary for CommercialPart revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4CommercialPartRevInfoSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_CommercialPart Revision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for ItemRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4CommercialPartRevSaveAs</value>
+			</context>
+		</preference>
+		<preference name="AWC_CommercialPart Revision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for CommercialPart Revision.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4CommercialPartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_CommercialPart Revision.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>This is an internal preference.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4CommercialPartRevisionSummary</value>
+			</context>
+		</preference>
+		<preference name="AWC_CommercialPart.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registering summary stylesheet for CommercialPart.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4CommercialPartSummary</value>
+			</context>
+		</preference>
+		
+		<preference name="AWC_VC4_AFM_Doc.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>AFM Document Create stylesheet registeration.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4AFM_DocCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_AFM_DocRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for VC4_AFM_DocRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4AFM_DocRevSaveAs</value>
+			</context>
+	</preference>
+	<preference name="AWC_VC4_AFM_Doc.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_AFM_Doc objects for ShowObject Location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4AFM_DocSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_AFM_Doc.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_AFM_Doc objects for ShowObject Location and Navigate SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4AFM_DocSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_AFM_DocRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>AFM Document Revision Summary.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4AFM_DocRevisionSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_AMM_Doc.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>AMM Document Create stylesheet registeration.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4AMM_DocCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_AMM_DocRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for VC4_AMM_DocRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4AMM_DocRevSaveAs</value>
+			</context>
+	</preference>
+	<preference name="AWC_VC4_AMM_Doc.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_AMM_Doc objects for ShowObject Location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4AMM_DocSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_AMM_Doc.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_AMM_Doc objects for ShowObject Location and Navigate SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4AMM_DocSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_AMM_DocRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>AMM Document Revision Summary.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4AMM_DocRevisionSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_CPL_Doc.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>CPL Document Create stylesheet registeration.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4CPL_DocCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_CPL_DocRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for VC4_CPL_DocRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4CPL_DocRevSaveAs</value>
+			</context>
+	</preference>
+	<preference name="AWC_VC4_CPL_Doc.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_CPL_Doc objects for ShowObject Location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4CPL_DocSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_CPL_Doc.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_CPL_Doc objects for ShowObject Location and Navigate SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4CPL_DocSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_CPL_DocRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>CPL Document Revision Summary.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4CPL_DocRevisionSummary</value>
+      </context>
+    </preference>
+	
+	<preference name="AWC_VC4_DQA_Doc.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>DQA Document Create stylesheet registeration.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4DQA_DocCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_DQA_DocRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for VC4_DQA_DocRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4DQA_DocRevSaveAs</value>
+			</context>
+	</preference>
+	<preference name="AWC_VC4_DQA_Doc.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_DQA_Doc objects for ShowObject Location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4DQA_DocSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_DQA_Doc.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_DQA_Doc objects for ShowObject Location and Navigate SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4DQA_DocSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_DQA_DocRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>DQA Document Revision Summary.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4DQA_DocRevisionSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_ENG_DocRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>ENG Document Revision Summary.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ENG_DocRevisionSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_ENG_Doc.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>ENG Document Create stylesheet registeration.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ENG_DocCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_ENG_DocRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for VC4_ENG_DocRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4ENG_DocRevSaveAs</value>
+			</context>
+	</preference>
+	<preference name="AWC_VC4_ENG_Doc.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_ENG_Doc objects for ShowObject Location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ENG_DocSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_ENG_Doc.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_ENG_Doc objects for ShowObject Location and Navigate SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ENG_DocSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_TCM_Doc.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>TCM Document Create stylesheet registeration.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4TCM_DocCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_TCM_DocRevision.REVISERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of revise stylesheet for VC4_TCM_DocRevision objects.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4TCM_DocRevRevise</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_TCM_DocRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for VC4_TCM_DocRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4TCM_DocRevSaveAs</value>
+			</context>
+	</preference>
+	<preference name="AWC_VC4_TCM_Doc.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_TCM_Doc objects for ShowObject Location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4TCM_DocSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_TCM_Doc.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_TCM_Doc objects for ShowObject Location and Navigate SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4TCM_DocSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_TCM_DocRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>TCM Document Revision Summary.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4TCM_DocRevisionSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_VPF_Doc.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>VPF Document Create stylesheet registeration.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPF_DocCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_VPF_DocRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for VC4_VPF_DocRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4VPF_DocRevSaveAs</value>
+			</context>
+	</preference>
+	<preference name="AWC_VC4_VPF_Doc.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_VPF_Doc objects for ShowObject Location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPF_DocSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_VPF_Doc.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_VPF_Doc objects for ShowObject Location and Navigate SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPF_DocSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_VPF_DocRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>VPF Document Revision Summary.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPF_DocRevisionSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_VPI_Doc.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>VPI Document Create stylesheet registeration.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPI_DocCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_VPI_DocRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for VC4_VPI_DocRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4VPI_DocRevSaveAs</value>
+			</context>
+	</preference>
+	<preference name="AWC_VC4_VPI_Doc.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_VPI_Doc objects for ShowObject Location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPI_DocSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_VPI_Doc.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_VPI_Doc objects for ShowObject Location and Navigate SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPI_DocSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_VPI_DocRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>VPI Document Revision Summary.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPI_DocRevisionSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_VPP_Doc.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>VPP Document Create stylesheet registeration.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPP_DocCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_VPP_DocRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for VC4_VPP_DocRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4VPP_DocRevSaveAs</value>
+			</context>
+	</preference>
+	<preference name="AWC_VC4_VPP_Doc.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_VPP_Doc objects for ShowObject Location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPP_DocSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_VPP_Doc.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_VPP_Doc objects for ShowObject Location and Navigate SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPP_DocSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_VPP_DocRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>VPP Document Revision Summary.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPP_DocRevisionSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_VPS_Doc.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>VPS Document Create stylesheet registeration.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPS_DocCreate</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_VPS_DocRevision.SAVEASRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+			<preference_description>Registration of saveas stylesheet for VC4_VPS_DocRevision objects.</preference_description>
+			<context name="Teamcenter">
+				<value>AWC_VC4VPS_DocRevSaveAs</value>
+			</context>
+	</preference>
+	<preference name="AWC_VC4_VPS_Doc.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_VPS_Doc objects for ShowObject Location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPS_DocSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_VPS_Doc.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for VC4_VPS_Doc objects for ShowObject Location and Navigate SubLocation.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPS_DocSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_VPS_DocRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>VPS Document Revision Summary.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4VPS_DocRevisionSummary</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_ElectricPartRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for Hardware Part Revision for show object location and Occurrence Management sub location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ElectricPartRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_ElectricPartRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for Hardware Part Revision for Show Object location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ElectricPartRevSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_ElectricPartElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for VC4_ElectricPartElement objects.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ElectricPartElementSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_HardwarePartElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for VC4_HardwarePartElement objects.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4HardwarePartElementSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_HardwarePartRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for Hardware Part Revision for show object location and Occurrence Management sub location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4HardwarePartRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_HardwarePartRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for Hardware Part Revision for Show Object location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4HardwarePartRevSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_SoftwarePartElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for VC4_SoftwarePartElement objects.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4SoftwarePartElementSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_SoftwarePartRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for Software Part Revision for show object location and Occurrence Management sub location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4SoftwarePartRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_SoftwarePartRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for Software Part Revision for Show Object location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4SoftwarePartRevSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_InstLevItemElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for VC4_InstLevItemElement objects.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4InstLevItemElementSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_InstLevItemRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for Hardware Part Revision for show object location and Occurrence Management sub location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4InstLevItemRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_InstLevItemRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for Hardware Part Revision for Show Object location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4InstLevItemRevSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_UpperLevItemElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for VC4_UpperLevItemElement objects.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4UpperLevItemElementSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_UpperLevItemRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for UpperLevItem Revision for show object location and Occurrence Management sub location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4UpperLevItemRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_UpperLevItemRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for UpperLevItem Revision for Show Object location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4UpperLevItemRevSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_TBenchPartElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for VC4_TBenchPartElement objects.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4TBenchPartRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_TBenchPartRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for TBench Part Revision for show object location and Occurrence Management sub location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4TBenchPartRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_TBenchPartRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for TBench Part Revision for Show Object location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4TBenchPartRevSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_MBOMPartElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for VC4_MBOMPartElement objects.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4MBOMPartElementSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_MBOMPartRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for MBOM Part Revision for show object location and Occurrence Management sub location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4MBOMPartRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_MBOMPartRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for MBOM Part Revision for Show Object location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4MBOMPartRevSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_ResourceJigElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for VC4_ResourceJigElement objects.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ResourceJigElementSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_ResourceJigRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for ResourceJig Revision for show object location and Occurrence Management sub location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ResourceJigRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_ResourceJigRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for ResourceJig Revision for Show Object location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ResourceJigRevSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_ResourceMANElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for VC4_ResourceMANElement objects.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ResourceMANElementSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_ResourceMANRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for ResourceMAN Revision for show object location and Occurrence Management sub location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ResourceMANRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_ResourceMANRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for ResourceMAN Revision for Show Object location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ResourceMANRevSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_ResourceMoldElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for VC4_ResourceMoldElement objects.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ResourceMoldElementSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_ResourceMoldRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for ResourceMold Revision for show object location and Occurrence Management sub location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ResourceMoldRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_ResourceMoldRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for ResourceMold Revision for Show Object location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4ResourceMoldRevSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_RawMaterialElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for VC4_RawMaterialElement objects.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4RawMaterialElementSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_RawMaterialRevision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for RawMaterial Revision for show object location and Occurrence Management sub location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4RawMaterialRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_VC4_RawMaterialRevision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for RawMaterial Revision for Show Object location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4RawMaterialRevSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+	<preference name="AWC_VC4_CommercialPartElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for VC4_CommercialPartElement object.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4CommercialPartElementSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_CommercialPart Revision.showObjectLocation.OccurrenceManagementSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for CommercialPart Revision for show object location and Occurrence Management sub location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4CommercialPartRevisionSummary</value>
+      </context>
+    </preference>
+    <preference name="AWC_CommercialPart Revision.showObjectLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for CommercialPart Revision for Show Object location.</preference_description>
+      <context name="Teamcenter">
+        <value>AWC_VC4CommercialPartRevSummaryForShowObjectLocation</value>
+      </context>
+    </preference>
+	</category>
+</preferences>
