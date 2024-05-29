@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="POC4_RawMaterial" parentClassName="RawMaterial" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="POC4_RawMaterialMasterS" parentClassName="RawMaterialMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="POC4_RawMaterialRevMasterS" parentClassName="RawMaterialRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="POC4_RawMaterialRevision" parentClassName="RawMaterialRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="POC4_doc_ref_dataset_rel" parentClassName="ImanRelation" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="POC4_doc_ref_doc_rel" parentClassName="ImanRelation" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <OperationInputType typeName="POC4_RawMaterialCreI" parentTypeName="RawMaterialCreI"
+       typeClassName="POC4_RawMaterialCreI" description="CreateInput object for &quot;POC4_RawMaterial&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialCreI"/>
+   <OperationInputType typeName="POC4_RawMaterialMasterCreI" parentTypeName="RawMaterialMasterCreI"
+       typeClassName="POC4_RawMaterialMasterCreI" description="CreateInput object for &quot;POC4_RawMaterialMaster&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialMasterCreI"/>
+   <OperationInputType typeName="POC4_RawMaterialMasterSCreI" parentTypeName="RawMaterialMasterSCreI"
+       typeClassName="POC4_RawMaterialMasterSCreI" description="CreateInput object for &quot;POC4_RawMaterialMasterS&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialMasterSCreI"/>
+   <OperationInputType typeName="POC4_RawMaterialMasterSSvAI" parentTypeName="RawMaterialMasterSSvAI"
+       typeClassName="POC4_RawMaterialMasterSSvAI" description="SaveAsInput object for &quot;POC4_RawMaterialMasterS&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialMasterSSvAI"/>
+   <OperationInputType typeName="POC4_RawMaterialMasterSvAI" parentTypeName="RawMaterialMasterSvAI"
+       typeClassName="POC4_RawMaterialMasterSvAI" description="SaveAsInput object for &quot;POC4_RawMaterialMaster&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialMasterSvAI"/>
+   <OperationInputType typeName="POC4_RawMaterialRevMasterSCreI" parentTypeName="RawMaterialRevMasterSCreI"
+       typeClassName="POC4_RawMaterialRevMasterSCreI" description="CreateInput object for &quot;POC4_RawMaterialRevMasterS&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialRevMasterSCreI"/>
+   <OperationInputType typeName="POC4_RawMaterialRevMasterSSvAI" parentTypeName="RawMaterialRevMasterSSvAI"
+       typeClassName="POC4_RawMaterialRevMasterSSvAI" description="SaveAsInput object for &quot;POC4_RawMaterialRevMasterS&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialRevMasterSSvAI"/>
+   <OperationInputType typeName="POC4_RawMaterialRevisi_alt0CreI" parentTypeName="RawMaterialRevisionMasterCreI"
+       typeClassName="POC4_RawMaterialRevisi_alt0CreI" description="CreateInput object for &quot;POC4_RawMaterialRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialRevisi_alt0CreI"/>
+   <OperationInputType typeName="POC4_RawMaterialRevisi_alt0SvAI" parentTypeName="RawMaterialRevisionMasterSvAI"
+       typeClassName="POC4_RawMaterialRevisi_alt0SvAI" description="SaveAsInput object for &quot;POC4_RawMaterialRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialRevisi_alt0SvAI"/>
+   <OperationInputType typeName="POC4_RawMaterialRevisionCreI" parentTypeName="RawMaterialRevisionCreI"
+       typeClassName="POC4_RawMaterialRevisionCreI" description="CreateInput object for &quot;POC4_RawMaterialRevision&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialRevisionCreI"/>
+   <OperationInputType typeName="POC4_RawMaterialRevisionRevI" parentTypeName="RawMaterialRevisionRevI"
+       typeClassName="POC4_RawMaterialRevisionRevI" description="ReviseInput object for &quot;POC4_RawMaterialRevision&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialRevisionRevI"/>
+   <OperationInputType typeName="POC4_RawMaterialRevisionSvAI" parentTypeName="RawMaterialRevisionSvAI"
+       typeClassName="POC4_RawMaterialRevisionSvAI" description="SaveAsInput object for &quot;POC4_RawMaterialRevision&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialRevisionSvAI"/>
+   <OperationInputType typeName="POC4_RawMaterialSvAI" parentTypeName="RawMaterialSvAI"
+       typeClassName="POC4_RawMaterialSvAI" description="SaveAsInput object for &quot;POC4_RawMaterial&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialSvAI"/>
+   <OperationInputType typeName="POC4_doc_ref_dataset_relCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="POC4_doc_ref_dataset_relCreI" description="CreateInput object for &quot;POC4_doc_ref_dataset_rel&quot; business object"
+       isAbstract="false" artifactName="POC4_doc_ref_dataset_relCreI"/>
+   <OperationInputType typeName="POC4_doc_ref_dataset_relSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="POC4_doc_ref_dataset_relSvAI" description="SaveAsInput object for &quot;POC4_doc_ref_dataset_rel&quot; business object"
+       isAbstract="false" artifactName="POC4_doc_ref_dataset_relSvAI"/>
+   <OperationInputType typeName="POC4_doc_ref_doc_relCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="POC4_doc_ref_doc_relCreI" description="CreateInput object for &quot;POC4_doc_ref_doc_rel&quot; business object"
+       isAbstract="false" artifactName="POC4_doc_ref_doc_relCreI"/>
+   <OperationInputType typeName="POC4_doc_ref_doc_relSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="POC4_doc_ref_doc_relSvAI" description="SaveAsInput object for &quot;POC4_doc_ref_doc_rel&quot; business object"
+       isAbstract="false" artifactName="POC4_doc_ref_doc_relSvAI"/>
+   <TcForm typeName="POC4_RawMaterialMaster" parentTypeName="RawMaterialMaster" typeClassName="Form"
+       description="MasterForm object for &quot;POC4_RawMaterial&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialMaster" formStorageClassName="POC4_RawMaterialMasterS"/>
+   <TcForm typeName="POC4_RawMaterialRevisionMaster" parentTypeName="RawMaterialRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;POC4_RawMaterialRevision&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialRevisionMaster" formStorageClassName="POC4_RawMaterialRevMasterS"/>
+   <TcStandardType typeName="POC4_RawMaterial" parentTypeName="RawMaterial" typeClassName="POC4_RawMaterial"
+       description="" isAbstract="false" artifactName="POC4_RawMaterial"/>
+   <TcStandardType typeName="POC4_RawMaterialMasterS" parentTypeName="RawMaterialMasterS"
+       typeClassName="POC4_RawMaterialMasterS" description="Form Storage object for &quot;POC4_RawMaterialMaster&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialMasterS"/>
+   <TcStandardType typeName="POC4_RawMaterialRevMasterS" parentTypeName="RawMaterialRevMasterS"
+       typeClassName="POC4_RawMaterialRevMasterS" description="Form Storage object for &quot;POC4_RawMaterialRevMaster&quot; business object"
+       isAbstract="false" artifactName="POC4_RawMaterialRevMasterS"/>
+   <TcStandardType typeName="POC4_RawMaterialRevision" parentTypeName="RawMaterialRevision"
+       typeClassName="POC4_RawMaterialRevision" description="ItemRevision object for &quot;POC4?&quot;  business object"
+       isAbstract="false" artifactName="POC4_RawMaterialRevision"/>
+   <TcStandardType typeName="POC4_doc_ref_dataset_rel" parentTypeName="ImanRelation"
+       typeClassName="POC4_doc_ref_dataset_rel" description="" isAbstract="false"
+       artifactName="POC4_doc_ref_dataset_rel"/>
+   <TcStandardType typeName="POC4_doc_ref_doc_rel" parentTypeName="ImanRelation" typeClassName="POC4_doc_ref_doc_rel"
+       description="" isAbstract="false" artifactName="POC4_doc_ref_doc_rel"/>
+   <TcPropertyAttach typeName="VC4_Abs_Prod_DocRevision">
+     <TcProperty propName="POC4_doc_ref_dataset_rel" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="VC4_Abs_Prod_DocRevision">
+     <TcProperty propName="POC4_doc_ref_doc_rel" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="VC4_Abs_Prod_DocRevisionCreI">
+     <OperationInputProperty propName="poc4POC4_doc_ref_dataset_rel" compoundObjectConstant=""
+         srcPropName="POC4_doc_ref_dataset_rel" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="VC4_Abs_Prod_DocRevisionCreI">
+     <OperationInputProperty propName="poc4POC4_doc_ref_doc_rel" compoundObjectConstant=""
+         srcPropName="POC4_doc_ref_doc_rel" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </TcPropertyAttach>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="en_US"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="POC4_doc_ref_dataset_rel"
+       value="POC4_doc_ref_dataset_relCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="POC4_doc_ref_doc_rel"
+       value="POC4_doc_ref_doc_relCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="POC4_RawMaterial" value="POC4_RawMaterialCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="POC4_RawMaterialMaster"
+       value="POC4_RawMaterialMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="POC4_RawMaterialMasterS"
+       value="POC4_RawMaterialMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="POC4_RawMaterialRevision"
+       value="POC4_RawMaterialRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="POC4_RawMaterialRevisionMaster"
+       value="POC4_RawMaterialRevisi_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="POC4_RawMaterialRevMasterS"
+       value="POC4_RawMaterialRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="POC4_RawMaterial" value="POC4_RawMaterial.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="POC4_RawMaterialRevision"
+       value="POC4_RawMaterialRevision.png"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="POC4_RawMaterial" value="POC4_RawMaterialRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="POC4_RawMaterial" value="POC4_RawMaterialMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="POC4_RawMaterialRevision"
+       value="POC4_RawMaterialRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="POC4_RawMaterialRevision"
+       value="POC4_RawMaterialRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="POC4_doc_ref_dataset_rel"
+       value="POC4_doc_ref_dataset_relSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="POC4_doc_ref_doc_rel"
+       value="POC4_doc_ref_doc_relSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="POC4_RawMaterial" value="POC4_RawMaterialSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="POC4_RawMaterialMaster"
+       value="POC4_RawMaterialMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="POC4_RawMaterialMasterS"
+       value="POC4_RawMaterialMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="POC4_RawMaterialRevision"
+       value="POC4_RawMaterialRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="POC4_RawMaterialRevisionMaster"
+       value="POC4_RawMaterialRevisi_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="POC4_RawMaterialRevMasterS"
+       value="POC4_RawMaterialRevMasterSSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VC4_Abs_Prod_DocRevision"
+       propertyName="POC4_doc_ref_dataset_rel" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VC4_Abs_Prod_DocRevision"
+       propertyName="POC4_doc_ref_doc_rel" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VC4_Abs_Prod_DocRevision"
+       propertyName="POC4_doc_ref_dataset_rel" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VC4_Abs_Prod_DocRevision"
+       propertyName="POC4_doc_ref_doc_rel" value="Write"/>
+   <TcGRMRule primaryTypeName="VC4_Abs_Prod_DocRevision" secondaryTypeName="Dataset"
+       relationTypeName="POC4_doc_ref_dataset_rel" conditionName="isTrue" primaryCardinality="-1"
+       secondaryCardinality="-1" secured="false" attachability="WriteAccessReq" changeability="Changeable"
+       detachability="WriteAccessReq" description=""/>
+   <TcGRMRule primaryTypeName="VC4_Abs_Prod_DocRevision" secondaryTypeName="VC4_Abs_Prod_DocRevision"
+       relationTypeName="POC4_doc_ref_doc_rel" conditionName="isTrue" primaryCardinality="-1"
+       secondaryCardinality="-1" secured="false" attachability="WriteAccessReq" changeability="Changeable"
+       detachability="WriteAccessReq" description=""/>
+<<<<<<< HEAD
+=======
+   <TcGRMRule primaryTypeName="VC4_Abs_Prod_DocRevision" secondaryTypeName="WorkspaceObject"
+       relationTypeName="POC4_doc_ref_dataset_rel" conditionName="isTrue" primaryCardinality="0"
+       secondaryCardinality="0" secured="false" attachability="WriteAccessReq" changeability="Changeable"
+       detachability="WriteAccessReq" description=""/>
+>>>>>>> f127801 (Merge pull request #6 from vicky-volocopter/TestDev)
+   </Add>
+</TcBusinessData>
