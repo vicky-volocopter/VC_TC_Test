@@ -11,9 +11,9 @@ jobs:
       - run: echo "Relevant commit SHA:$RELEVANT_SHA"
         env:
           RELEVANT_SHA: ${{ github.sha }}
-      - uses: actions/checkout@v4
-          with:
-          ref: main
+          uses: actions/checkout@v4
+          with: DEV_MAIN
+          ref: DEV_MAIN
       - name: Reset QA branch
         run: |
           git fetch origin DEV_MAIN:DEV_MAIN
