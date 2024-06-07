@@ -1,1 +1,24 @@
-
+name: Create production promotion pull request
+on:
+  push:
+    branches:
+      - DEV_MAIN
+jobs:
+  productionPromotion:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - run: echo "Relevant commit SHA:$RELEVANT_SHA"
+        env:
+          RELEVANT_SHA: ${{ github.sha }}
+      - uses: actions/checkout@v4
+        with:
+        ref: main
+      - name: Reset QA branch
+        run: |
+          git fetch origin DEV_MAIN:DEV_MAIN
+          git reset --hard DEV_MAIN
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v6
+      with:
+        branch: TC_QA
