@@ -4,7 +4,6 @@ on:
     branches:
       - DEV_MAIN
 jobs:
-  productionPromotion:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
