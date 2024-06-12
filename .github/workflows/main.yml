@@ -1,26 +1,24 @@
-name: CI
-# Controls when the workflow will run
+name: Create production promotion pull request
 on:
-  # Triggers the workflow on push or pull request events but only for the "DEV_MAIN" branch
   push:
-    branches: [ "DEV_MAIN" ]
-  pull_request:
-    branches: [ "DEV_MAIN" ]
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+    branches:
+      - DEV_MAIN
 jobs:
-             - name: Branch Merge
-  # You may pin to the exact commit or the version.
-  # uses: everlytic/branch-merge@c4a244dc23143f824ae6c022a10732566cb8e973
-  uses: actions/checkout@v2
-  with:
-    # Token used to authenticate with GitHub when performing the merge command.
-    github_token: ${{ github.token }}
-    # Branch name or Ref that you wish to merge into the target_branch.
-    source_ref: ${{ github.ref }}
-    # Branch you are merging the source ref into.
-    target_branch: TC_QA
-    # Template to generate the commit message, see README.md for more info
-    commit_message_template: Merged {source_ref} into {target_branch}.
-          
+  productionPromotion:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - run: echo "Relevant commit SHA:$RELEVANT_SHA"
+        env:
+          RELEVANT_SHA: ${{ github.sha }}
+      - uses: actions/checkout@v4
+        with:
+        ref: main
+      - name: Reset QA branch
+        run: |
+          git fetch origin DEV_MAIN:DEV_MAIN
+          git reset --hard DEV_MAIN
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v6
+      with:
+        branch: TC_QA
