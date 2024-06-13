@@ -8,19 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
-    - name: Setup Environment (Push) 
-      shell: bash  
-      run: |  
-        echo "LAST_COMMIT_SHA=${GITHUB_SHA}" >> ${GITHUB_ENV}
-    - uses: actions/checkout@v4
-      with:
-        ref: main
-    - name: Reset QA branch
-      run: |
-          git fetch origin DEV_MAIN:DEV_MAIN
-          git reset --hard DEV_MAIN
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v6
-      with:
-        branch: TC_QA
-        # test
+      - uses: actions/checkout@v4
+        with:
+          ref: DEV_MAIN
+      - name: Reset QA branch
+        run: |
+          git fetch origin DEV_MAIN:TC_QA
+          git reset --hard TC_QA
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: TC_QA
